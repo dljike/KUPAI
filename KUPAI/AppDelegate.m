@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "Header.h"
+
+static char szListenTabbarViewMove[] = "listenTabViewMove";
 
 @interface AppDelegate ()
 
@@ -14,11 +17,58 @@
 
 @implementation AppDelegate
 
-
+@synthesize tabBarViewController = tabBarViewController_;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    /*初始化视图*/
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:frame];
+    self.window.backgroundColor = [UIColor blackColor];
+    [self changeToHomeViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+-(void) changeToHomeViewController{
+    
+    tabBarViewController_ = [[YGHTabBarController alloc] init];
+    self.window.rootViewController = tabBarViewController_;
+    
+    
+    
+#if kPanUISwitch
+    self.screenshotView = [[YGHScreenShotView alloc] initWithFrame:CGRectMake(0, 0,kDeviceWidth, KDeviceHeight)];
+    [self.window insertSubview:_screenshotView atIndex:0];
+    
+    [self.window.rootViewController.view addObserver:self forKeyPath:@"transform" options:NSKeyValueObservingOptionNew context:szListenTabbarViewMove];
+    
+    self.screenshotView.hidden = YES;
+    
+#endif
+    
+    
+    
+}
+
+
++ (AppDelegate *)currentAppDelegate
+{
+    
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+}
+
+#if kPanUISwitch
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if (context == szListenTabbarViewMove)
+    {
+        NSValue *value  = [change objectForKey:NSKeyValueChangeNewKey];
+        CGAffineTransform newTransform = [value CGAffineTransformValue];
+        
+        [self.screenshotView showEffectChange:CGPointMake(newTransform.tx, 0) ];
+    }
+}
+#endif
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

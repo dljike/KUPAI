@@ -1,0 +1,6 @@
+framework module Pods_KUPAI {
+  umbrella header "Pods-KUPAI-umbrella.h"
+
+  export *
+  module * { export * }
+}
