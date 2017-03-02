@@ -13,8 +13,8 @@
 
 
 
-#define BaseUrl @"http://m.lmboss.com"  //接口
-#define StaticUrl @"http://m.lmboss.com/AppGetway/AppToWeb.aspx?"    //html5
+#define BaseUrl @""  //接口
+#define StaticUrl @""
 
 
 
