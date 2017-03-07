@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - GRMustache (7.3.2):
+    - JRSwizzle (~> 1.0)
+  - JRSwizzle (1.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - SDWebImage (4.0.0):
@@ -22,16 +25,19 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - GRMustache
   - MBProgressHUD
   - MJRefresh
   - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GRMustache: ebe6104fd30a6d22c1f36af131e19e2dbf7cd292
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: e585e498dc9b978451fabcde743470f1d355f111
+PODFILE CHECKSUM: 8108922758e57099d92501a01350081eca7d8860
 
 COCOAPODS: 1.2.0

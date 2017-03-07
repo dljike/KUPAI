@@ -11,6 +11,6 @@
 @interface PageViewController : UIViewController
 
 
-@property(nonnull,strong)UILabel *pageLabel;
+@property(nonnull,strong) NSString *pageNum;
 
 @end

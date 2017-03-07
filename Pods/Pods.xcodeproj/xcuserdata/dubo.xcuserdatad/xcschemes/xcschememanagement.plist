@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>GRMustache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JRSwizzle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,12 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D404AAB9E1E21FA4BB7CDB1331D8BF6</key>
+		<key>00E0802DA0C7B6A2D51F819B9BA65D71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3867A7E5CB4A9F7D2EE936F1CF3DD7EC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66BDAB4F583FFA855AD607DFC0BFC5C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +72,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF5A8D8B65068F354DF4E1570424D601</key>
+		<key>FF97040146C0195186C928276979CFEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

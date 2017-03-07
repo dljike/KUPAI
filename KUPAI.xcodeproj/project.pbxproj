@@ -39,7 +39,6 @@
 		8224DEF81E67FEA1003CCFE3 /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEBA1E67FEA1003CCFE3 /* CommonViewController.m */; };
 		8224DEF91E67FEA1003CCFE3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEBC1E67FEA1003CCFE3 /* HomeViewController.m */; };
 		8224DEFA1E67FEA1003CCFE3 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEBE1E67FEA1003CCFE3 /* MineViewController.m */; };
-		8224DEFB1E67FEA1003CCFE3 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEC01E67FEA1003CCFE3 /* OtherViewController.m */; };
 		8224DEFC1E67FEA1003CCFE3 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEC21E67FEA1003CCFE3 /* SearchViewController.m */; };
 		8224DEFD1E67FEA1003CCFE3 /* ShopCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEC41E67FEA1003CCFE3 /* ShopCartViewController.m */; };
 		8224DEFE1E67FEA1003CCFE3 /* YGHUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEC71E67FEA1003CCFE3 /* YGHUIBarButtonItem.m */; };
@@ -52,6 +51,11 @@
 		8224DF051E67FEA1003CCFE3 /* DLUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEDB1E67FEA1003CCFE3 /* DLUtility.m */; };
 		8224DF061E67FEA1003CCFE3 /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DEDD1E67FEA1003CCFE3 /* PageViewController.m */; };
 		8224DF071E67FEA1003CCFE3 /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8224DEDE1E67FEA1003CCFE3 /* PageViewController.xib */; };
+		8224DF4F1E681573003CCFE3 /* YBCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DF4A1E681573003CCFE3 /* YBCacheTool.m */; };
+		8224DF501E681573003CCFE3 /* YBHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DF4C1E681573003CCFE3 /* YBHttpTool.m */; };
+		8224DF511E681573003CCFE3 /* YBMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DF4E1E681573003CCFE3 /* YBMD5.m */; };
+		8224DF551E681EC2003CCFE3 /* comentPage.html in Resources */ = {isa = PBXBuildFile; fileRef = 8224DF541E681EC2003CCFE3 /* comentPage.html */; };
+		8224DF581E68209A003CCFE3 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8224DF571E68209A003CCFE3 /* OtherViewController.m */; };
 		91BD852F988CACAF032399EF /* Pods_KUPAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3174ED042A6A4608EC489003 /* Pods_KUPAI.framework */; };
 /* End PBXBuildFile section */
 
@@ -126,8 +130,6 @@
 		8224DEBC1E67FEA1003CCFE3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		8224DEBD1E67FEA1003CCFE3 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		8224DEBE1E67FEA1003CCFE3 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
-		8224DEBF1E67FEA1003CCFE3 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
-		8224DEC01E67FEA1003CCFE3 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		8224DEC11E67FEA1003CCFE3 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		8224DEC21E67FEA1003CCFE3 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		8224DEC31E67FEA1003CCFE3 /* ShopCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCartViewController.h; sourceTree = "<group>"; };
@@ -155,6 +157,16 @@
 		8224DEDE1E67FEA1003CCFE3 /* PageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
 		8224DEE01E67FEA1003CCFE3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8224DEE11E67FEA1003CCFE3 /* RequestUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestUrl.h; sourceTree = "<group>"; };
+		8224DF481E681573003CCFE3 /* YBCacheConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCacheConstant.h; sourceTree = "<group>"; };
+		8224DF491E681573003CCFE3 /* YBCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBCacheTool.h; sourceTree = "<group>"; };
+		8224DF4A1E681573003CCFE3 /* YBCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBCacheTool.m; sourceTree = "<group>"; };
+		8224DF4B1E681573003CCFE3 /* YBHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBHttpTool.h; sourceTree = "<group>"; };
+		8224DF4C1E681573003CCFE3 /* YBHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBHttpTool.m; sourceTree = "<group>"; };
+		8224DF4D1E681573003CCFE3 /* YBMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBMD5.h; sourceTree = "<group>"; };
+		8224DF4E1E681573003CCFE3 /* YBMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBMD5.m; sourceTree = "<group>"; };
+		8224DF541E681EC2003CCFE3 /* comentPage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = comentPage.html; sourceTree = "<group>"; };
+		8224DF561E68209A003CCFE3 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		8224DF571E68209A003CCFE3 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		9C453EFC3F0DED1A4887AE58 /* Pods-KUPAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUPAI.release.xcconfig"; path = "Pods/Target Support Files/Pods-KUPAI/Pods-KUPAI.release.xcconfig"; sourceTree = "<group>"; };
 		F0CA5B0118092FD5F1DE77D2 /* Pods-KUPAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KUPAI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KUPAI/Pods-KUPAI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -268,6 +280,7 @@
 		8224DE901E67FEA0003CCFE3 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				8224DF471E681573003CCFE3 /* AFNCacheManager */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -346,10 +359,10 @@
 				8224DEBA1E67FEA1003CCFE3 /* CommonViewController.m */,
 				8224DEBB1E67FEA1003CCFE3 /* HomeViewController.h */,
 				8224DEBC1E67FEA1003CCFE3 /* HomeViewController.m */,
+				8224DF561E68209A003CCFE3 /* OtherViewController.h */,
+				8224DF571E68209A003CCFE3 /* OtherViewController.m */,
 				8224DEBD1E67FEA1003CCFE3 /* MineViewController.h */,
 				8224DEBE1E67FEA1003CCFE3 /* MineViewController.m */,
-				8224DEBF1E67FEA1003CCFE3 /* OtherViewController.h */,
-				8224DEC01E67FEA1003CCFE3 /* OtherViewController.m */,
 				8224DEC11E67FEA1003CCFE3 /* SearchViewController.h */,
 				8224DEC21E67FEA1003CCFE3 /* SearchViewController.m */,
 				8224DEC31E67FEA1003CCFE3 /* ShopCartViewController.h */,
@@ -423,8 +436,23 @@
 		8224DEE21E67FEA1003CCFE3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8224DF541E681EC2003CCFE3 /* comentPage.html */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		8224DF471E681573003CCFE3 /* AFNCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				8224DF481E681573003CCFE3 /* YBCacheConstant.h */,
+				8224DF491E681573003CCFE3 /* YBCacheTool.h */,
+				8224DF4A1E681573003CCFE3 /* YBCacheTool.m */,
+				8224DF4B1E681573003CCFE3 /* YBHttpTool.h */,
+				8224DF4C1E681573003CCFE3 /* YBHttpTool.m */,
+				8224DF4D1E681573003CCFE3 /* YBMD5.h */,
+				8224DF4E1E681573003CCFE3 /* YBMD5.m */,
+			);
+			path = AFNCacheManager;
 			sourceTree = "<group>";
 		};
 		90826CA1139723B6C8570C09 /* Frameworks */ = {
@@ -549,6 +577,7 @@
 				8224DEED1E67FEA1003CCFE3 /* homePage_default@2x.png in Resources */,
 				8224DEEC1E67FEA1003CCFE3 /* category_selected@2x.png in Resources */,
 				8224DEF11E67FEA1003CCFE3 /* nav_back_normal@2x.png in Resources */,
+				8224DF551E681EC2003CCFE3 /* comentPage.html in Resources */,
 				8224DF071E67FEA1003CCFE3 /* PageViewController.xib in Resources */,
 				8224DEEF1E67FEA1003CCFE3 /* myYigou_default@2x.png in Resources */,
 				8224DEEE1E67FEA1003CCFE3 /* homePage_selected@2x.png in Resources */,
@@ -633,8 +662,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8224DF581E68209A003CCFE3 /* OtherViewController.m in Sources */,
 				8224DE651E67FE1A003CCFE3 /* ViewController.m in Sources */,
 				8224DEFE1E67FEA1003CCFE3 /* YGHUIBarButtonItem.m in Sources */,
+				8224DF4F1E681573003CCFE3 /* YBCacheTool.m in Sources */,
 				8224DEFA1E67FEA1003CCFE3 /* MineViewController.m in Sources */,
 				8224DF021E67FEA1003CCFE3 /* DLCustomSlideView.m in Sources */,
 				8224DEE31E67FEA1003CCFE3 /* BaseViewController.m in Sources */,
@@ -644,11 +675,11 @@
 				8224DEF71E67FEA1003CCFE3 /* CategoryViewController.m in Sources */,
 				8224DF001E67FEA1003CCFE3 /* DLLRUCache.m in Sources */,
 				8224DF011E67FEA1003CCFE3 /* DLSlideView.m in Sources */,
+				8224DF511E681573003CCFE3 /* YBMD5.m in Sources */,
 				8224DF061E67FEA1003CCFE3 /* PageViewController.m in Sources */,
 				8224DEFD1E67FEA1003CCFE3 /* ShopCartViewController.m in Sources */,
 				8224DEE71E67FEA1003CCFE3 /* YGHScreenShotNavViewController.m in Sources */,
 				8224DEFC1E67FEA1003CCFE3 /* SearchViewController.m in Sources */,
-				8224DEFB1E67FEA1003CCFE3 /* OtherViewController.m in Sources */,
 				8224DEF81E67FEA1003CCFE3 /* CommonViewController.m in Sources */,
 				8224DEE41E67FEA1003CCFE3 /* NSObject+BoardManage.m in Sources */,
 				8224DEFF1E67FEA1003CCFE3 /* UIApplication+ActivityViewController.m in Sources */,
@@ -656,6 +687,7 @@
 				8224DEE51E67FEA1003CCFE3 /* YGHAuthManagerNavViewController.m in Sources */,
 				8224DEE61E67FEA1003CCFE3 /* YGHAuthNavigationBar.m in Sources */,
 				8224DE621E67FE1A003CCFE3 /* AppDelegate.m in Sources */,
+				8224DF501E681573003CCFE3 /* YBHttpTool.m in Sources */,
 				8224DE5F1E67FE1A003CCFE3 /* main.m in Sources */,
 				8224DEF91E67FEA1003CCFE3 /* HomeViewController.m in Sources */,
 				8224DF051E67FEA1003CCFE3 /* DLUtility.m in Sources */,
